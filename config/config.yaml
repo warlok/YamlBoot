@@ -1,0 +1,25 @@
+server:
+    port: 7777
+    database:
+        host: test.host.com
+        port: 8080
+        user: dean
+        pass: qwerty
+    email:
+        login: dean@gmail.com
+        password: qwerty123
+        server: mail.gravitec.net
+        port: 465
+    push:
+        chrome50: true
+        chrome49: false
+        batchSize: 10
+    mongo:
+        host: localhost
+        port: 2710
+        user: grav
+        pass: 123456
+        db: gravitec
+    adminUsers:
+      - admin@gravitec.net
+      - test@gravitec.net
